@@ -18,7 +18,7 @@ export class User {
   updatedAt = new Date();
 
   @Field()
-  @Property({ type: 'text' })
+  @Property({ columnType: 'VARCHAR(50)', unique: true })
   username!: string;
 
   @Property({ type: 'text'})

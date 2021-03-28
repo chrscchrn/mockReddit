@@ -35,7 +35,7 @@ __decorate([
 ], User.prototype, "updatedAt", void 0);
 __decorate([
     type_graphql_1.Field(),
-    core_1.Property({ type: 'text' }),
+    core_1.Property({ columnType: 'VARCHAR(50)', unique: true }),
     __metadata("design:type", String)
 ], User.prototype, "username", void 0);
 __decorate([
